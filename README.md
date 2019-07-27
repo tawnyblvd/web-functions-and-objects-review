@@ -41,7 +41,7 @@ Input: [1,2,3,4,5,6]
 Output: [1,3,5]
 ```
 
-BONUS: Rewrite this using a callback
+BONUS: If you didn't rewrite this using an array method with a callback
 
 ## 5. Make sure each number is positive
 
@@ -52,7 +52,7 @@ Input: [-4,3,-2,4]
 Output: false
 ```
 
-BONUS: Rewrite this using a callback
+BONUS: If you didn't rewrite this using an array method with a callback
 
 ## 6. Lowercase all strings
 
@@ -63,7 +63,9 @@ Input: ["HELLO", "THERE", "THESE", "ARE", "SOME", "STRINGS"]
 Output: ["hello", "there", "these", "are", "some", "strings"]
 ```
 
-BONUS: Rewrite this using a callback
+BONUS: 
+  A. If you didn't rewrite this using an array method with a callback
+  B. Make it work even if the array has mixed types inside `[1, 'HELLO', {one: 'uno'}] would become ['hello']` 
 
 ## 7. Combine strings
 
@@ -82,6 +84,7 @@ Write a function that returns a random integer between 1 and n
 Input: 7
 Output: 3
 ```
+Bonus: Your function should return 1 or 7 inclusive
 
 ## 9. Sum of absolute values
 
@@ -107,9 +110,9 @@ Output: 100
 
 2. Make 3 different user objects and store them in an array
 
-3. Write a function that takes in an array of User objects, and prints their email addresses
+3. Write a function that takes in an array of User objects, and returns an array with only their email addresses
 
-4. Write a function that takes in an array of User objects, and the average age of all users
+4. Write a function that takes in an array of User objects, and returns the average age of all users. Rounded down.
 
 5. Write a function that takes in an array of User objects and returns whether or not all users have an age greater than 18
 
