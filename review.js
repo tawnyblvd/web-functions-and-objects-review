@@ -1,8 +1,9 @@
 // # Mid-Unit-1 Review Lab
 //
-// In this lab, we will review two key topics covered so far: Objects and Functions.  These are two vital topics for understanding JavaScript fundamentals, and will be used heavily as we build web apps in later units.
+// In this lab, we will review two key topics covered so far: Objects and Functions.
+// These are two vital topics for understanding JavaScript fundamentals, and will be used heavily as we build web apps in later units.
 //
-// 
+//
 // ## Functions
 //
 // ## 1. Average of two numbers
@@ -13,7 +14,10 @@
 // Input: 4,6
 // Output: 5
 // ```
-//
+function averageNums(num1, num2) {
+  return  (num1 + num2) /2;
+}
+console.log(averageNums(4,6));
 // ## 2. Average of three numbers
 //
 // Write a function that takes in three numbers as input and returns their average
