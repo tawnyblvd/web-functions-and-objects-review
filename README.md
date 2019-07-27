@@ -41,7 +41,7 @@ Input: [1,2,3,4,5,6]
 Output: [1,3,5]
 ```
 
-BONUS: If you didn't rewrite this using an array method with a callback
+BONUS: If you didn't, rewrite this using an array method with a callback
 
 ## 5. Make sure each number is positive
 
@@ -52,7 +52,7 @@ Input: [-4,3,-2,4]
 Output: false
 ```
 
-BONUS: If you didn't rewrite this using an array method with a callback
+BONUS: If you didn't, rewrite this using an array method with a callback
 
 ## 6. Lowercase all strings
 
@@ -64,8 +64,9 @@ Output: ["hello", "there", "these", "are", "some", "strings"]
 ```
 
 BONUS: 
-  A. If you didn't rewrite this using an array method with a callback
-  B. Make it work even if the array has mixed types inside `[1, 'HELLO', {one: 'uno'}] would become ['hello']` 
+  - A. If you didn't, rewrite this using an array method with a callback
+
+  - B. Make it work even if the array has mixed types inside so that input = `[1, 'HELLO', {one: 'uno'}]` would give output = `['hello']` 
 
 ## 7. Combine strings
 
